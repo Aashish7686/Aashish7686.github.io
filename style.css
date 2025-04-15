@@ -1,0 +1,147 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    background: linear-gradient(135deg, #1a1a1a, #2e2e2e);
+    padding: 0;
+    margin: 0;
+    min-height: 100vh;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #121212;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+  }
+  
+  header .logo h1 {
+    font-size: 2rem;
+    color: #00ff99;
+  }
+  
+  header nav {
+    font-size: 1.1rem;
+  }
+  
+  header nav a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 15px;
+    transition: color 0.3s ease;
+  }
+  
+  header nav a:hover {
+    color: #00ff99;
+  }
+  
+  .intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .intro .profile-container {
+    margin-bottom: 20px;
+  }
+  
+  .intro .profile-picture {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    box-shadow: 0 4px 10px rgba(0, 255, 153, 0.3);
+  }
+  
+  .intro h2 {
+    font-size: 2.5rem;
+    margin: 20px 0;
+    color: #00ff99;
+  }
+  
+  .intro p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+  
+  .cta-button {
+    text-decoration: none;
+    color: #fff;
+    background: #00ff99;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background: #00cc7a;
+  }
+  
+  .section {
+    padding: 60px 20px;
+    text-align: center;
+    transition: all 0.3s ease;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    color: #00ff99;
+    margin-bottom: 20px;
+  }
+  
+  .project-card {
+    background: #333;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 255, 153, 0.2);
+    transition: transform 0.3s ease;
+  }
+  
+  .project-card h3 {
+    color: #00ff99;
+    font-size: 1.5rem;
+  }
+  
+  .project-card p {
+    font-size: 1.1rem;
+    color: #ccc;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 255, 153, 0.3);
+  }
+  
+  footer {
+    text-align: center;
+    background-color: #121212;
+    padding: 20px;
+    font-size: 1rem;
+    color: #ccc;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+  }
+
+
+  
