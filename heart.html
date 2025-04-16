@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated Zigzag Heart</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            background-color: black;
+        }
+        canvas {
+            display: block;
+        }
+        .equation {
+            color: white;
+            font-family: Arial, sans-serif;
+            font-size: 20px;
+            position: absolute;
+            top: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    </style>
+</head>
+<body>
+    <div class="equation">
+        <p>Equation: x(t) = 16 * sin³(t), y(t) = 13 * cos(t) - 5 * cos(2 * t) - 2 * cos(3 * t) - cos(4 * t)</p>
+    </div>
+    <canvas id="heartCanvas"></canvas>
+    <script src="heart.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
